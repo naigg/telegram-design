@@ -1,0 +1,86 @@
+.tg_head_logo_dropdown .dropdown-menu > li .TelegramDesignA {
+  display: inline-block;
+  padding: 11px 5px 10px 5px;
+}
+
+/* icon in the dropdown */
+.TelegramDesignA__icon {
+  width: 21px;
+  height: 21px;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: top;
+  background-image: url(../img/icons/General.png);
+  background-repeat: no-repeat;
+  background-position: -10px -163px;
+}
+
+.page_wrap--dark {
+  background-color: lightslategray;
+}
+
+.page_wrap--dark .im_page_wrap {
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+/* list of contacts area */
+.page_wrap--dark .im_dialogs_col_wrap {
+  background-color: #36404a;
+  border-right: 2px solid #232a31;
+}
+
+.page_wrap--dark .im_dialogs_scrollable_wrap .im_dialog_peer {
+  color: white;
+}
+
+.page_wrap--dark .im_dialogs_scrollable_wrap a.im_dialog:hover .im_dialog_peer {
+  color: #222;
+}
+
+/* 1-n message area */
+.page_wrap--dark .im_history {
+  background-color: #36404a;
+}
+
+.page_wrap--dark .im_history_messages {
+  background-color: #36404a;
+}
+
+.page_wrap--dark .im_history_typing_wrap {
+  background-color: #36404a;
+}
+
+.page_wrap--dark .im_history_scrollable_wrap {
+  background-color: #36404a;
+}
+
+/* selected states */
+.page_wrap--dark .im_message_text {
+  background-color: white;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.page_wrap--dark .im_message_selected .im_message_outer_wrap {
+  background-color: white;
+}
+
+.page_wrap--dark .im_message_selected .im_message_text {
+  background-color: #36404a;
+  color: white;
+}
+
+/* text input area */
+.page_wrap--dark .im_bottom_panel_wrap {
+  background-color: #36404a;
+}
+
+.page_wrap--dark .composer_rich_textarea {
+  color: white;
+}
+
+.page_wrap--dark .im_record_bg {
+  background-color: #1f1f1f;
+}
